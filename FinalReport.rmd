@@ -30,6 +30,17 @@ mydata <- na.omit(mydata)
 Is attitude toward capitol punishment (cappun) independent of race (race)?
 If not, then whose view differs from whom??
 
+
+$H_0$ There is no difference
+
+$H_A$ There is a difference
+
+```{r eval=FALSE}
+FinalData <- FinalData %>%
+mutate(across(where(is.character), as.factor))
+```
+
+
 # Methods
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
@@ -39,6 +50,11 @@ If not, then whose view differs from whom??
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
 
 ## Descriptive Results
+
+We are going to use CandP helper files to compare two categories of data types cappun and race. Since this is a cat~cat problem we will first create a bar chart, then, we will run a fav states to show graphical and numerical results.
+
+
+
 
 ### Graphical Descriptive Results
 
