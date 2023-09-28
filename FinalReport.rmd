@@ -1,6 +1,6 @@
 ---
 title: "GSS challange More Data"
-author: "Cleo Ware!"
+author: "Cleo Ware"
 date: "Fall 2023"
 output: html_document
 ---
