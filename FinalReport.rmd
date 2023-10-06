@@ -146,8 +146,6 @@ We also see that most of the p-values are lower than 0.05.However, this has litt
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
-
-
 We have shown through graphical and numerical means that there are differences in the data, the white race has a higher incidence of being in favor of capitol punishment when compared to black and other races.
 
 After determining that there was a statistically significant in the data and finding it in the relationship between White and Black races we can reject $H_0$ and confirm the $H_A$ showing this difference.
@@ -157,13 +155,4 @@ In branch two we evaluated similar data structure with a smaller group. In the s
 It seems that the larger the data the more differences appear in the data.
 
 We can say that there is a correlation in this case, more research would be needed to be concluded what the causation is, be it social or some other effect.
-
-
-
-
-
-
-
-
-
 
