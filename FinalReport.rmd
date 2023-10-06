@@ -46,6 +46,13 @@ mydataata <- mydata %>%
 mutate(across(where(is.character), as.factor))
 ```
 
+Looking at our data we see that the problem is Categorical~Categorical.This means that we will need to use the Cat_Cat helper file from the CandP set.
+
+We will expect to use a bar chart to visually express our data and a table to show the numerical summary of our data.
+
+Finally, for our inferential results we will use a Chi-Squared test, this will only tell us if there is a difference. If so, where the difference is.
+
+If there is a difference in the data, we need to identify its source, then we will run a FisherXY test. Which runs the Fisher Test for all combinations.
 
 # Results
 
@@ -62,6 +69,12 @@ barchartGC(~race + cappun,data=mydata)
 barchartGC(~race + cappun,data=mydata, type="percent")
 
 ```
+
+We can see from the graphical representation of our data that a disproportionate amount of white people are in favor of capitol punishment.
+
+However, we do not see this trend when looking looking at other races. Per the results, more black people oppose capitol punishment.
+
+
 
 ## Now with LESS data (more variables give less data due to NA's) create the approate graphic displays to answer the question.
 
@@ -80,7 +93,9 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
+As scene here, almost double the percentage of white people are in favor of capitol punishment.
 
+However, black and other races are much closer to a 50:50 split.
 
 ## Inferential Results
 
