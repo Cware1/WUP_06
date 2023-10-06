@@ -120,6 +120,25 @@ chisqtestGC(table1)
 fisherXY(mydata$race,mydata$cappun,printAll= TRUE)
 ```
 
+
+
+In the above Chi-Squared test, we see that we have Chi-Squared Statistic much higher than the critical value given our degrees of freedom.
+
+This higher number shows us that most of the data set is different from its expected value.
+
+The p-value is also extremely small at $2.2 \text{ x } 10^{-16}$
+This tells us that there is definitely a difference somewhere in the data. Thus, we must run a Fisher test to find where.
+
+
+The difference has been found. While running a Fisher Test with a confidence level of 99%, we found where the critical p-value is.
+
+The relationship between the races, white and black is where the greatest difference is with the previous small p-value of $2.2 \text{ x } 10^{-16}$
+
+We also see that most of the p-values are lower than 0.05.However, this has little application here as one of the variables is dramatically different.
+
+
+
+
 ## More data version
 
 
