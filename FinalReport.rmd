@@ -109,6 +109,12 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
+In the above Chi-Squared test, we see that we have Chi-Squared Statistic much higher than the critical value given our degrees of freedom.
+
+This higher number shows us that most of the data set is different from its expected value.
+
+The p-value is also extremely small at $2.2 \text{ x } 10^{-16}$
+This tells us that there is definitely a difference somewhere in the data. Thus, we must run a Fisher test to find where.
 
 
 # Discussion and Conclusion
