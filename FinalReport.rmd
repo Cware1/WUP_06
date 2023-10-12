@@ -106,7 +106,7 @@ chisq.test(table1)
 chisqtestGC(table1)
 ```
 ```{r}
-fisher.test(table1)
+fisherXY(mydata$race,mydata$cappun,confL = 0.95,printAll = TRUE)
 ```
 
 In the above Chi-Squared test, we see that we have Chi-Squared Statistic much higher than the critical value given our degrees of freedom.
